@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/app.css">
+    <title>Auto User Search</title>
+</head>
+<body>
+
+     <form>
+        <fieldset class="choose-user">
+            <label for="userSearch">Who do you want to email?</label>
+            <ul class="selected-users" id="selectedUsers">
+            </ul>
+            <div class="input-container">
+                <input type="text" id="userSearch">
+                <img class="send-icon" src="./assets/send-icon.png">
+                <div class="dropdown-menu" id="dropdownMenu">
+                    <ul id="userList">
+                    </ul>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="message-user" id="messageUser">
+            <textarea></textarea>
+            <button class="disabled" type="submit">Send</button>
+        </fieldset>
+     </form>
+    
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
