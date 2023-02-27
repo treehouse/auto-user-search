@@ -1,27 +1,23 @@
-@import url("https://fonts.cdnfonts.com/css/gotham-rounded");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gotham Rounded", sans-serif;
+  font-family: "Inter", sans-serif;
 }
-*::-webkit-scrollbar {
-  border-radius: 25px;
-  background-color: var(--scroll-bar-bg);
-  width: 0.5rem;
-}
-*::-webkit-scrollbar-thumb {
-  border-radius: 25px;
-  background-color: var(--primary-color);
+
+* li {
+  list-style: none;
 }
 
 :root {
-  --primary-bg: #223157;
-  --primary-color: #7B9DF3;
-  --primary-color-darker: #607fcd;
-  --white: #ffffff;
-  --text-dark: #34435f;
-  --text-light: #34435fb5;
-  --list-item-bg-hover: #f2f2f2;
-  --scroll-bar-bg: #f2f2f2;
-}/*# sourceMappingURL=app.css.map */
+  --primary: #F0B37B;
+  --bg: #252935;
+  --text: #354650;
+  --gray-dark: #D9D9D9;
+  --gray-light: #F4F4F4;
+  --white: #FFFFFF;
+  --box-shadow: 0px 0px 12px 7px rgba(240, 179, 123, 0.3);
+}
+

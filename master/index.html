@@ -8,27 +8,25 @@
     <title>Auto User Search</title>
 </head>
 <body>
-
-     <form>
-        <fieldset class="choose-user">
-            <label for="userSearch">Who do you want to email?</label>
-            <ul class="selected-users" id="selectedUsers">
-            </ul>
-            <div class="input-container">
-                <input type="text" id="userSearch">
-                <img class="send-icon" src="./assets/send-icon.png">
-                <div class="dropdown-menu" id="dropdownMenu">
-                    <ul id="userList">
-                    </ul>
-                </div>
-            </div>
-        </fieldset>
-        <fieldset class="message-user" id="messageUser">
-            <textarea></textarea>
-            <button class="disabled" type="submit">Send</button>
-        </fieldset>
-     </form>
     
+    <div class="auto-user-search">
+        <div class="search-container" id="searchContainer">
+            <img src="./images/search.png" alt="search icon">
+            <input type="text" id="searchInput">
+            <div class="dropdown-container" id="dropdownContainer">
+                <ul class="dropdown" id="dropdown">
+                    <!-- <li>
+                        <img class="user-image" src="./images/users/sameer.png" alt="">
+                        <div class="group">
+                            <p>Sameer Johnson</p>
+                            <p>sjohnson@gmail.com</p>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <script src="./scripts/app.js"></script>
 </body>
 </html>
